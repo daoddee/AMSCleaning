@@ -43,7 +43,7 @@ if (form) {
 }
 
 // WhatsApp group link placeholder (update later)
-const WHATSAPP_GROUP_LINK = "https://example.com/your-whatsapp-group-link"; // <-- replace later
+const WHATSAPP_GROUP_LINK = "https://chat.whatsapp.com/JF8u2f1NrsHCe5EkcraJo4"; // <-- replace later
 const whatsappBtn = document.getElementById("whatsappBtn");
 const whatsappLink = document.getElementById("whatsappLink");
 
