@@ -14,15 +14,17 @@
 <body>
   <!-- Top Bar -->
   <header class="topbar">
-   <div class="brand">
-  <div class="brand__mark">
-    <img src="images/logo.png" alt="AMS Cleaning Logo">
-  </div>
-  <div class="brand__text">
-    <div class="brand__name">AMS Cleaning</div>
-    <div class="brand__tag">Bin Cleaning Specialists</div>
-  </div>
-</div>
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__mark">
+          <img src="images/logo.png" alt="AMS Cleaning Logo">
+        </div>
+        <div class="brand__text">
+          <div class="brand__name">AMS Cleaning</div>
+          <div class="brand__tag">Bin Cleaning Specialists</div>
+        </div>
+      </div>
+
       <nav class="nav">
         <a href="#services">Services</a>
         <a href="#gallery">Gallery</a>
@@ -42,13 +44,15 @@
 
     <!-- Mobile menu -->
     <div class="mobileMenu" id="mobileMenu" hidden>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <div class="mobileMenu__buttons">
-        <a class="btn btn--ghost" href="mailto:contact@amscleaning.co.uk">contact@amscleaning.co.uk</a>
-        <a class="btn btn--primary" href="#contact">Get a Quote</a>
+      <div class="container">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="mobileMenu__buttons">
+          <a class="btn btn--ghost" href="mailto:contact@amscleaning.co.uk">contact@amscleaning.co.uk</a>
+          <a class="btn btn--primary" href="#contact">Get a Quote</a>
+        </div>
       </div>
     </div>
   </header>
@@ -73,7 +77,7 @@
         <div class="hero__stats">
           <div class="stat">
             <div class="stat__num">✓</div>
-            <div class="stat__label">Sanitised & Deodorised</div>
+            <div class="stat__label">Sanitised &amp; Deodorised</div>
           </div>
           <div class="stat">
             <div class="stat__num">✓</div>
@@ -81,14 +85,18 @@
           </div>
           <div class="stat">
             <div class="stat__num">✓</div>
-            <div class="stat__label">Residential & Commercial</div>
+            <div class="stat__label">Residential &amp; Commercial</div>
           </div>
         </div>
       </div>
 
       <div class="hero__media">
-        <!-- Replace hero.jpg with your best photo -->
-        <img src="images/hero.jpg" alt="AMS Cleaning bin cleaning service" onerror="this.src='data:image/svg+xml;charset=UTF-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22800%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%230b1220%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%2394a3b8%22 font-size=%2236%22 font-family=%22Inter%22>Replace images/hero.jpg</text></svg>';" />
+        <!-- IMPORTANT: hero.jpg should be a REAL PHOTO, not the logo -->
+        <img
+          src="images/hero.jpg"
+          alt="AMS Cleaning bin cleaning service"
+          onerror="this.src='data:image/svg+xml;charset=UTF-8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22800%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%230b1220%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%2394a3b8%22 font-size=%2236%22 font-family=%22Inter%22>Replace images/hero.jpg</text></svg>';"
+        />
         <div class="hero__badge">
           <div class="hero__badgeTitle">Local • Dependable</div>
           <div class="hero__badgeText">High-pressure wash + deep sanitise for a fresh finish.</div>
@@ -128,14 +136,14 @@
           <h3>Wheelie Bin Cleaning</h3>
           <p>High-pressure wash to remove grime, residue and buildup—finished to a clean standard.</p>
           <ul>
-            <li>External & internal wash</li>
+            <li>External &amp; internal wash</li>
             <li>Handles and lid cleaned</li>
             <li>Rinse and dry finish</li>
           </ul>
         </article>
 
         <article class="card">
-          <h3>Sanitising & Deodorising</h3>
+          <h3>Sanitising &amp; Deodorising</h3>
           <p>Targeted sanitiser to reduce bacteria and odour so bins stay fresher for longer.</p>
           <ul>
             <li>Odour neutralisation</li>
@@ -145,7 +153,7 @@
         </article>
 
         <article class="card">
-          <h3>Residential & Commercial</h3>
+          <h3>Residential &amp; Commercial</h3>
           <p>From homes to small businesses—scalable service, consistent quality control.</p>
           <ul>
             <li>One-off cleans</li>
@@ -167,7 +175,7 @@
 
       <div class="gallery">
         <figure class="gallery__item">
-          <img src="images/bin1.jpg" alt="Bin cleaning before and after" onerror="this.src='https://placehold.co/800x600?text=Add+bin1.jpg';" />
+          <img src="images/bin1.jpg" alt="Bin cleaning result" onerror="this.src='https://placehold.co/800x600?text=Add+bin1.jpg';" />
         </figure>
         <figure class="gallery__item">
           <img src="images/bin2.jpg" alt="Pressure washing a wheelie bin" onerror="this.src='https://placehold.co/800x600?text=Add+bin2.jpg';" />
@@ -249,7 +257,6 @@
 
           <div class="contactCard">
             <div class="contactCard__label">Phone</div>
-            <!-- Replace with your real number -->
             <a class="contactCard__value" href="tel:+447000000000">+44 7000 000000</a>
           </div>
 
